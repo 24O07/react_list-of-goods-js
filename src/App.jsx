@@ -25,6 +25,7 @@ export const App = () => {
 
     setGoods(sorted);
     setSortType('alphabet');
+    setIsReversed(false);
   };
 
   const sortByLength = () => {
@@ -32,6 +33,7 @@ export const App = () => {
 
     setGoods(sorted);
     setSortType('length');
+    setIsReversed(false);
   };
 
   const reverseGoods = () => {
